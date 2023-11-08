@@ -161,7 +161,7 @@ def LSTM_groningen(def_series, B_temp, LOOK_BACK=2, TRAIN_RATIO=0.67, LSTM_NEURO
 if __name__=='__main__':
     
     # Tasks 1: 
-    #make data frame and make defo_df
+    #make data frame and store in "defo_df"
     
     lstm_prediction.LSTM_groningen(defo_df, _, LOOK_BACK=25, TRAIN_RATIO=0.6, LSTM_NEURONS = 30, LSTM_EPOCHS = 1, NUM_POINTS_PLOT = 3)
     
